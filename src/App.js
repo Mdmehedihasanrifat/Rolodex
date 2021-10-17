@@ -32,7 +32,7 @@ class App extends Component{
 
     return (
         <div className="App">
-
+                 <h1>Roobolox</h1>
                  <Search placeholder="Search monster"  handleChange={(e)=>{
                      this.setState({search:e.target.value})}}></Search>
                 <div className="card-list">
